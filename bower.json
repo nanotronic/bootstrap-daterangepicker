@@ -1,5 +1,5 @@
 {
-  "name": "bootstrap-daterangepicker",
+  "name": "bootstrap-daterangepicker-ext",
   "version": "1.2.0",
   "main": "daterangepicker.js",
   "ignore": [
