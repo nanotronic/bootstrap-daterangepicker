@@ -862,10 +862,10 @@
 
         },
         updateDates: function (options) {
-            if (typeof options.startDate !== 'object') {
+            if (typeof options.startDate !== 'object' || !options.startDate) {
                     return;
             }
-            if (typeof options.endDate !== 'object') {
+            if (typeof options.endDate !== 'object' || !options.endDate) {
                     return;
             }
             this.startDate = moment(options.startDate, this.format).startOf('day');
